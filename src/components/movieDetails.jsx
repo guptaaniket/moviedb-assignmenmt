@@ -34,7 +34,7 @@ class MovieDetails extends Component {
             </div>
           </div>
         ) : (
-          <div>Something Went wrong.....</div>
+          <div style={{textAlign:'center'}}>There is no data!</div>
         )}
       </div>
     );
