@@ -1,0 +1,35 @@
+.movie-card {
+  margin: 0.7rem;
+  width: 15rem;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.radius {
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.search-box {
+  padding: 0px 10px;
+  border: solid 1px rgb(152, 152, 161);
+  border-radius: 10px;
+  background-color: #dfdfdd;
+  width: 500px;
+  height: 30px;
+  outline: none
+}
+
+.home-ic {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+.flex-cls{
+  display: flex;
+  flex-direction: row;
+}
+.cursor{
+  cursor: pointer !important;
+}
